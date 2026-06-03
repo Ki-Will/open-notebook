@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "node start-server.js",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "start": "node init && node start-server.js",
     "lint": "eslint src/",
     "test": "vitest run",
     "test:watch": "vitest",
